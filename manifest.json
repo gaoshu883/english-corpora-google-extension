@@ -1,0 +1,23 @@
+{
+  "name": "English Corpora Mobile Helper",
+  "version": "1.0.2",
+  "description": "Responsive mobile styles",
+  "manifest_version": 3,
+  "author": "Xiaolu Wang",
+  "content_scripts": [
+    {
+      "matches": [
+        "https://*.english-corpora.org/*"
+      ],
+      "js": [
+        "app.js"
+      ],
+      "run_at": "document_end"
+    }
+  ],
+  "icons": {
+    "16": "icon48.png",
+    "48": "icon48.png",
+    "128": "icon48.png"
+  }
+}
