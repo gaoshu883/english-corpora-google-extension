@@ -30,6 +30,7 @@ function createStyle() {
     form#zabba .auto-style2 {
       white-space: normal;
       display: inline-block;
+      font-size: 16px;
     }
   }  
   `
